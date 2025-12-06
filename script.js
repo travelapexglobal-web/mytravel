@@ -31,7 +31,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
-        navbar.style.background = 'rgba(102, 126, 234, 0.95)';
+        navbar.style.background = 'rgba(255, 215, 0, 0.95)';
         navbar.style.backdropFilter = 'blur(10px)';
     } else {
         navbar.style.background = 'linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%)';
